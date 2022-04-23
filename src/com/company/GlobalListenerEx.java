@@ -30,13 +30,12 @@ public class GlobalListenerEx implements NativeKeyListener {
             }
             case("+"):{
                 System.out.println("Введите число");
-                try{
+                try {
                     int j = in.nextInt();
-                    for(int i = 1; i<=j;i++){
+                    for (int i = 1; i <= j; i++) {
                         System.out.println(i);
                     }
-                }
-                catch (Exception ex){
+                } catch (Exception ex) {
                     System.out.println("Норм с головой?");
                 }
             }
